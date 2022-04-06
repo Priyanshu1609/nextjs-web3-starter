@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { contractABI } from "../src/artifacts/contracts/Greeter.sol/Greeter.json"
+import { abi} from "../src/artifacts/contracts/Greeter.sol/Greeter.json"
 import { ethers } from 'ethers'
 import { useRouter } from 'next/router'
 
